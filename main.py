@@ -33,7 +33,7 @@ def validate_number():
         while game_over == False:
 
             if hit:
-                print("You guess it! The secret number is", secret_number)
+                print("You guess it! The secret number is {}!".format(secret_number))
                 game_over = True
 
             elif miss_more:
